@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "mk-training-web-part-client-side-solution",
+    "id": "3605b2ef-6ab3-4b0a-a13a-60a89f8d36d2",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.23.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "MkTrainingWebPart description"
+      },
+      "longDescription": {
+        "default": "MkTrainingWebPart description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "mk-training-web-part Feature",
+        "description": "The feature that activates elements of the mk-training-web-part solution.",
+        "id": "2ce946ad-83d7-4303-9db6-30094bd35b59",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/mk-training-web-part.sppkg"
+  }
+}

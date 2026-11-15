@@ -1,0 +1,26 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "5d2953e8-d7d3-4d9b-ba68-17ac70f23b94",
+  "alias": "MkWebPart1WebPart",
+  "componentType": "WebPart",
+
+  
+  "version": "*",
+  "manifestVersion": 2,
+
+  
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart", "TeamsPersonalApp", "TeamsTab", "SharePointFullPage"],
+  "supportsThemeVariants": true,
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70", 
+    "group": { "default": "Advanced" },
+    "title": { "default": "MKWebPart1" },
+    "description": { "default": "MKWebPart1 description" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "MKWebPart1"
+    }
+  }]
+}
