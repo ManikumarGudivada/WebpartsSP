@@ -1,0 +1,39 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "sp-birthday-webpart-1-client-side-solution",
+    "id": "91c64679-05c6-4d75-a490-57c9e32afbb5",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.24.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "sp-birthday-webpart-1 description"
+      },
+      "longDescription": {
+        "default": "sp-birthday-webpart-1 description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "sp-birthday-webpart-1 Feature",
+        "description": "The feature that activates elements of the sp-birthday-webpart-1 solution.",
+        "id": "2a10c4e4-7373-46a5-a0a0-d6c735d0f869",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/sp-birthday-webpart-1.sppkg"
+  }
+}

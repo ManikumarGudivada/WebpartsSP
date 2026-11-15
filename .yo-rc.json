@@ -1,0 +1,18 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "useGulp": false,
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "22.23.2",
+    "sdksVersions": {},
+    "version": "1.24.1",
+    "libraryName": "sp-birthday-webpart-1",
+    "libraryId": "91c64679-05c6-4d75-a490-57c9e32afbb5",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "sp-birthday-webpart-1",
+    "solutionShortDescription": "sp-birthday-webpart-1 description",
+    "skipFeatureDeployment": true,
+    "componentType": "webpart"
+  }
+}

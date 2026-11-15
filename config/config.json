@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "sp-birthday-webpart-1-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/spBirthdayWebpart1/SpBirthdayWebpart1WebPart.js",
+          "manifest": "./src/webparts/spBirthdayWebpart1/SpBirthdayWebpart1WebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SpBirthdayWebpart1WebPartStrings": "lib/webparts/spBirthdayWebpart1/loc/{locale}.js"
+  }
+}
